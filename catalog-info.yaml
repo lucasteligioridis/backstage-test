@@ -5,7 +5,7 @@ metadata:
   # This is an extra long description
   description: The lucastore is an example API used to show features of the OpenAPI spec.
   annotations:
-    backstage.io/kubernetes-id: value
+    backstage.io/kubernetes-id: dice-roller
   links:
     - url: https://github.com/swagger-api/swagger-petstore
       title: GitHub Repo
