@@ -6,7 +6,7 @@ metadata:
   description: The lucastore is an example API used to show features of the OpenAPI spec.
   annotations:
     'backstage.io/kubernetes-id': "lucas-store"
-    circleci.com/project-slug: github.com/Uplight-Inc/up-platform-demo-app
+    circleci.com/project-slug: github/Uplight-Inc/up-platform-demo-app
   links:
     - url: https://github.com/swagger-api/swagger-petstore
       title: GitHub Repo
