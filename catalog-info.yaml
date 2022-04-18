@@ -1,20 +1,19 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Component1
 metadata:
-  name: lucas-store
-  # This is an extra long description
-  description: The lucastore is an example API used to show features of the OpenAPI spec.
-  annotations:
-    'backstage.io/kubernetes-id': "lucas-store"
-    circleci.com/project-slug: github/Uplight-Inc/up-platform-demo-app
-  links:
-    - url: https://github.com/swagger-api/swagger-petstore
-      title: GitHub Repo
-      icon: github
+    annotations:
+        backstage.io/kubernetes-id: lucas-store
+        circleci.com/project-slug: github/Uplight-Inc/up-platform-demo-app
+    description: The lucastore is an example API used to show features of the OpenAPI spec.
+    links:
+        - icon: github
+          title: GitHub Repo
+          url: https://github.com/swagger-api/swagger-petstore
+    name: lucas-store
 spec:
-  type: service
-  lifecycle: experimental
-  owner: team-c
-  providesApis:
-    - streetlights
-    - hello-world
+    lifecycle: experimental
+    owner: team-c
+    providesApis:
+        - streetlights
+        - hello-world
+    type: service
